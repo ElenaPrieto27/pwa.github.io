@@ -2,8 +2,16 @@ const CACHENAME = "cache-v1";
 const CACHE_DYNAMIC_NAME = "dynamic-v1";
 const CACHE_INMUTABLE_NAME = "inmutable-v1";
 
-const APP_SHELL = ['/', '/index.html', '/pages/home.html', '/pages/no_response.html',
-    '/css/style.css', '/css/styleHome.css', '/img/7.png', '/img/fondo1.jpg', '/js/app.js'
+const APP_SHELL = [
+    './', 
+    'index.html', 
+    'pages/home.html', 
+    'pages/no_response.html',
+    'css/style.css', 
+    'css/styleHome.css', 
+    'img/7.png', 
+    'img/fondo1.jpg', 
+    'js/app.js'
 ];
 const APP_INMUTABLE = ['https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css',
     'https://code.jquery.com/jquery-3.6.0.min.js',
