@@ -1,0 +1,16 @@
+{
+    "short_name":"PWA",
+    "name":"Elena UTT",
+    "start_url":"index.html",
+    "background_color":"#808080",
+    "display":"standalone",
+    "orientation": "portrait",
+    "icons": [{
+        "src": "img/icons/github.png",
+        "type": "image/png",
+        "sizes":"512x512"
+    }],
+    "theme_color": "#808080"
+
+
+}

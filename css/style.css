@@ -1,0 +1,31 @@
+.cascading-right {
+    margin-right: -70px;
+}
+input{
+    text-align: center;
+}
+body{
+    background: url(/img/fondo1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+}
+@media (min-width: 978px) {
+    body{
+        padding-top: 30px;
+        padding-left: 80px;
+    }
+}
+@media (max-width: 978px) {
+    #imagen{
+        display: none;
+    }
+}
+#sofia{
+    font-family: "Sofia", sans-serif;
+}
+#Audiowide{
+    font-family: "Audiowide", sans-serif;
+}
